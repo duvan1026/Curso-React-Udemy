@@ -1,9 +1,19 @@
 
 
+describe('Pruebas en <DemoComponent/>', () => { //Agrega titulo a la prueba 
 
-test('Esta prueba no debe de fallar', () => {
+    test('Esta prueba no debe de fallar', () => {
 
-    if ( 0 === 1 ){
-        throw new Error('No puede dividir entre cero');
-    }
-})
+        //1. inicializacion
+        const message1 = 'Hola mundo';    
+    
+        //2. estimulo
+        const message2 = message1.trim(); // .trim() limpia los espacias adelante y atras del string.
+    
+        //3. Observar el comportamiento ... esperado
+        expect( message1 ).toBe( message2 );// condicion de jast para condicion
+    
+    });
+
+
+ })
