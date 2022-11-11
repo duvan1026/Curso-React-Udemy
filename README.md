@@ -58,3 +58,5 @@ En este paso se observa el comportamiento resultante, es decir:
 3. hacen más lenta mi aplicación. ---No es verdad, porque las pruebas corren sobre la maquina de desarrollo, por lo tanto son locales y no llegan a la etapa de desarrollo.
 4. Es una pérdida de tiempo. --pueden ser verdad, depende si se hacen pruebas de cosas que no tienen sentido probar, como las librerias, las cuales ya posiblemente el autor ya ha realizado dichas pruebas.
 5. hay que probar todo. ---puede ser verdad,  si se prueba todo, posiblemente lleve el mismo tiempo o mas del tiempo que nos tomo crear nuestra aplicación. 
+
+sitio oficial de jest, que es un framework, cual sirve para realizar test a aplicaciónes de Javascript.  https://jestjs.io/
