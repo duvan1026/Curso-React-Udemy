@@ -75,6 +75,23 @@ sitio oficial de jest, que es un framework, cual sirve para realizar test a apli
 7. navegamos dentro d ela carpeta que se ha creado.
 8. ejecutamos el comando **yarn** o **yarn install**. para que instale las dependencias del proyecto.
 
+## Ejecución de yarn
+
+dentro de la consola de comandos ejecutamos el siguiente comando **yarn dev** el cual nos arrojala una ventana como la siguiente:
+~~~
+  VITE v3.2.3  ready in 704 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+~~~
+Esto nos indica que el servidor a sido levantado satisfatoriamente.
+la seccion correspondiente a local: => se encuentra el link de acceso a la aplicación.
+
+### Instalación de jest
+
+
+
+
 ### Solucion problema instalación yarn windows
 
 1. Primero, ejecute estos comandos
