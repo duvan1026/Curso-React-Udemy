@@ -89,6 +89,20 @@ la seccion correspondiente a local: => se encuentra el link de acceso a la aplic
 
 ### Instalación de jest
 
+1. Abrimos la consola de comandos.
+2. navegamos a la ruta donde se encuentra alojado el proyecto.
+3. Ejecutamos el comando **yarn add --dev jest**. el cual realizara la instalación.
+4. Verificamos en el archivo **package.js** de nuestro proyecto si se encuentra la dependencia de **"jest":"version"**.
+5. creamos el scripts dentro del archivo anteriormente mensionado de la siguiente manera **"test":"jest"**.
+6. ejecutamos jest con el siguiente comando en consola => **yarn test**.
+
+
+
+
+Para obtener mayor información podemos ingresar al siguiente [link](https://jestjs.io).
+
+
+
 
 
 
