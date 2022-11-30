@@ -60,3 +60,31 @@ En este paso se observa el comportamiento resultante, es decir:
 5. hay que probar todo. ---puede ser verdad,  si se prueba todo, posiblemente lleve el mismo tiempo o mas del tiempo que nos tomo crear nuestra aplicación. 
 
 sitio oficial de jest, que es un framework, cual sirve para realizar test a aplicaciónes de Javascript.  https://jestjs.io/
+
+
+## **Importante**
+
+## Creación y instalación yarn 
+
+1. abre consola de comandos.
+2. navega entre las carpetas a la ubicación donde se encuentra la carpeta del proyecto.
+3. dijita el comando **yarn create vite**
+4. Esperar que instale las dependencias y se procede a colocar el nombre del proyecto.
+5. se elige la tecnologia a usar, en este caso React.
+6. Se elige el lenguaje a usar, en este caso javascript.
+7. navegamos dentro d ela carpeta que se ha creado.
+8. ejecutamos el comando **yarn** o **yarn install**. para que instale las dependencias del proyecto.
+
+### Solucion problema instalación yarn windows
+
+1. Primero, ejecute estos comandos
+    * yarn cache dir
+    * yarn global bin
+
+   Saldrá algo como:
+    * C:\Users\Firstname Lastname\AppData\Local\Yarn\Cache\v6
+    * C:\Users\Firstname Lastname\AppData\Local\Yarn\bin
+
+2. Cópielos y luego ejecute esto, con una ligera modificación de acuerdo con su nombre de usuario Firstname:
+    * yarn config set cache-folder "C:\Users\Firstname~1\AppData\Local\Yarn\Cache"(sin el V6)
+    * yarn config set prefix "C:\Users\Firstname~1\AppData\Local\Yarn"(sin el bin)
